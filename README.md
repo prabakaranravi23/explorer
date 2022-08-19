@@ -1,1 +1,3 @@
-# explorer praba
+# explorer praba 
+
+this is training class
