@@ -74,7 +74,7 @@ console.log(animals)
 /* This is example for ascending and descending order using an array */
 
 let vegetables = ["tomato","onion","potato"]
-vegetables.sort()
-console.log(vegetables)
+let sorted_vegetables = vegetables.sort()
+console.log(sorted_vegetables)
 vegetables.reverse()
 console.log(vegetables)
