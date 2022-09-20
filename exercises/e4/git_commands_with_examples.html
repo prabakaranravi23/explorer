@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>GIT commands with example</title>
+    <style>
+        h2 {
+            background-color: Cyan;
+        }
+
+        h3 {
+            background-color: Orange;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>GIT Commands</h1>
+    <ol>
+        <li>
+            <h2>To generate ssh key</h2>
+            <p>ssh-keygen-t ed25519 -c "your@gmail.com" - this is used to generate ssh key</p>
+        </li>
+        <li>
+            <h2>git confiq --global user.name"your_name"</h2>
+            <p>It is used to identify the username</p>
+            <h3>Example</h3>
+            <p>for example if you're name is prabakaran then the command is <strong>git confiq --global user.name
+                    "prabakaran"</strong></p>
+        </li>
+        <li>
+            <h2>git confiq --global user.email"your@email.com"</h2>
+            <p>It is used to identify the user email id</p>
+            <h3>Example</h3>
+            <p>for example if you're email id is prabakaranaug93@gmail.com then the command is <b>git confiq --global
+                    user.email "prabakaranaug93@gmail.com"</b></p>
+        </li>
+        <li>
+            <h2>git clone</h2>
+            <p>It is used to clone or copy of that respository at in a new directory, at another location.</p>
+            <h3>Example</h3>
+            <p>for example we have file in respository with url "exercise/e2/git_commands.html" if we want to create the
+                same file in the current location we can use this command <b>git clone exercise/e2/git_commands</b></p>
+        </li>
+        <li>
+            <h2>git status</h2>
+            <p>It is used to check the status of the local file in the current location</p>
+            <h3>Example</h3>
+            <p>for example the command to check the status is <b>git status</b></p>
+        </li>
+        <li>
+            <h2>git add.</h2>
+            <p>this is used to add many files without specifying the file name</p>
+            <h3>Example</h3>
+            <p>for example if we have 2 or more files to add in the respository then the command is <b>git add .</b></p>
+            <h2>git add"filename"</h2>
+            <p>this is used to add only the specified file to the repository</p>
+            <h3>Example</h3>
+            <p>for example if we have only 1file to add in the respository called "index.html" then the command is
+                <b>git add index.html</b></p>
+        </li>
+        <li>
+            <h2>git commit -am"message"</h2>
+            <p>this is used to record changes in the code respository</p>
+            <h3>Example</h3>
+            <p>for example if we have done staging for our file then the next step is to commit the file to the
+                repository the command is <b>git commit -am"new file is added"</b> and always the commit should happen
+                with message in it. </p>
+        </li>
+        <li>
+            <h2>git push</h2>
+            <p>this is used to update the code or upload the code repository in github</p>
+            <h3>Example</h3>
+            <p>for example after staging and commit then comes the push which is used to push the code to the repository
+                the command is <b>git push</b></p>
+        </li>
+        <li>
+            <h2>git restore</h2>
+            <p>this is used to restore the old file without any current updation</p>
+            <h3>Example</h3>
+            <p>for example if want to get the old file without the current updation then the command is <b>git restore
+                    index.html</b></p>
+        </li>
+        <li>
+            <h2>git fetch</h2>
+            <p>this is used to fetch data about the branch details</p>
+            <h3>Example</h3>
+            <p>for example if we are having added new branch in our respository then the local machine find difficult to
+                find it, if we use this command <b>git fetch</b> then it will be easy for the local machine to identify
+                the new branch</p>
+        </li>
+        <li>
+            <h2>git checkout</h2>
+            <p>this is used to switch from main to branch or branch to main</p>
+            <h3>Example</h3>
+            <p>for example if we want to switch from main to other branch we can use this command <b>git checkout
+                    index</b></p>
+        </li>
+        <li>
+            <h2>git pull</h2>
+            <p>this is used to download content from a remote repository and immediately update the local repository to
+                match that content.</p>
+            <h3>Example</h3>
+            <p>for example after fetching the details of the branches then we have t pull the content to local
+                repository <b>git pull</b></p>
+        </li>
+    </ol>
+</body>
+
+</html>
